@@ -7,6 +7,5 @@ package nativewrapper;
            System.loadLibrary("megalib");
         }
      
-        native public static void printOne();
-        native public static void printTwo();
+        native public static void printHello();
     }
